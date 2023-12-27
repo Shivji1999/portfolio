@@ -1,0 +1,27 @@
+/* Custom styles for Intro */
+.intro-section {
+    height: 100vh;
+    width: 100%;
+    background-color: #212529; /* Color similar to the navbar */
+    color: #ffffff; /* Text color for better visibility */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 150px;
+    margin-top: -76px;
+  }
+  
+  .intro-text {
+    width: 48%; /* Adjust the width of the text content */
+    text-align: left;
+  }
+  
+  .intro-image {
+    width: 48%; /* Adjust the width of the image content */
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  

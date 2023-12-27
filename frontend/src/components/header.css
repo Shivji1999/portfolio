@@ -1,0 +1,39 @@
+/* Custom styles */
+body {
+    padding-top: 56px;
+  }
+  @media (min-width: 768px) {
+    body {
+      padding-top: 76px;
+    }
+  }
+  
+  .navbar {
+    padding: 25px;
+  }
+
+  .navbar-nav .nav-link {
+    margin-left: 15px; 
+  }
+
+  .main-content {
+    padding: 20px;
+    padding-top: 80px; /* Adjust this value to leave space for the fixed navbar */
+    display: flex;
+    justify-content: space-between;
+    background-color: #212529;
+  }
+  
+  .content-text {
+    width: 48%; /* Adjust the width of the text content */
+    color: white;
+  }
+  
+  .content-image {
+    width: 48%; /* Adjust the width of the image content */
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
