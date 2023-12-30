@@ -21,7 +21,7 @@ body {
     padding-top: 80px; /* Adjust this value to leave space for the fixed navbar */
     display: flex;
     justify-content: space-between;
-    background-color: #212529;
+    background-color: #00000e;
   }
   
   .content-text {

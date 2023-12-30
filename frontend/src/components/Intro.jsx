@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import './intro.css';
+import SocialIcons from './SocialIcons';
 
 function Intro() {
 
@@ -45,7 +46,7 @@ function Intro() {
       };
     };
 
-    animateText();
+    // animateText();
 
     return () => {
       isMounted = false;
@@ -54,14 +55,20 @@ function Intro() {
 
   return (
     <div className="intro-section">
+      <div className='container'>
       <div className="intro-text">
         <h2>Hi, I'm</h2>
         <h1>{text}</h1>
         <p>Software Developer</p>
         <p>My introduction goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button className='btn btn-success'>Download CV</button>
       </div>
       <div className="intro-image">
         <img src="https://via.placeholder.com/300" alt="Random" />
+      </div>
+      </div>
+      <div className="bottom-section">
+        <SocialIcons />
       </div>
     </div>
   );
